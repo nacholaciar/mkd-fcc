@@ -1,0 +1,28 @@
+$bg-gradient: linear-gradient(#916de4, #caba98);
+
+.App {
+  flex-direction: column;
+  height: 100vh;
+  background-image: $bg-gradient;
+}
+
+.text-area,
+.preview {
+  flex-grow: 1;
+  resize: none;
+  height: 100%;
+  overflow: auto;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.text-area {
+  background-color: #000;
+  color: #fff;
+}
+
+.preview {
+  background-color: #fff;
+  color: #000;
+}
